@@ -26,12 +26,11 @@
 
 ### Tab2: Contacts
 
-
 스마트폰에 있는 연락처를 연동해서 Recyclerview로 보여준다.   
 
-<img src="https://user-images.githubusercontent.com/77565951/148031983-45f953af-de12-4b9d-b875-5c0d9c8bb648.gif" />   
 `getcontact()`로 사용자에게 연락처 접근 권한을 얻고, `contactinfo.kt`을 통해 JSON 형식으로 데이터를 가져와 parsing한다. 이름과 연락처는 adapter에서 bind해서 fragment로 넘긴다. 프로필 사진은 google처럼 이름의 첫 글자를 가져온 뒤, 랜덤으로 컬러를 지정했다. 이때, 즐겨찾기 기능처럼 오른쪽 하트를 누르면 lottie애니메이션이 실행되며 하트 색상이 변경된다.
 
+<img src="https://user-images.githubusercontent.com/77565951/148031983-45f953af-de12-4b9d-b875-5c0d9c8bb648.gif" />   
 ---
 
 ### Tab3: Gallery
